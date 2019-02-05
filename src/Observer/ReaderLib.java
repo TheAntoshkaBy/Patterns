@@ -2,7 +2,7 @@ package Observer;
 
 import java.util.List;
 
-public class ReaderLib implements Reader {
+public class ReaderLib extends AleksLibrary implements Reader {
     String name;
 
     public ReaderLib(String nm){
